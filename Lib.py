@@ -76,10 +76,7 @@ def MainMenu():
     elif ch == 4:
         SearchBook()
     elif ch == 5:
-        print("Quitting now", end='')
-        for _ in range(0,3):
-            print(".", end='')
-            time.sleep(1)
+        print("Quitting now...")
         return
     else:
         print ("Enter a valid choice...")
